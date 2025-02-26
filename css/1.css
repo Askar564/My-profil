@@ -90,13 +90,14 @@ body{
 	color:#14b78a;
 	border: 2px solid #00A884;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
     .menu {
         width: 95%;
         height: 50px;
         padding: 10px 0;
         gap: 10px;
         display: flex;
+        background: red;
     }
 
     .logo {
