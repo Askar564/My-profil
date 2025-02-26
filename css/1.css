@@ -90,6 +90,56 @@ body{
 	color:#14b78a;
 	border: 2px solid #00A884;
 }
+@media (max-width: 768px) {
+    .menu {
+        width: 95%;
+        height: 50px;
+        padding: 10px 0;
+        gap: 10px;
+        display: flex;
+    }
+
+    .logo {
+        width: 100px;
+        justify-content: center;
+        background: red;
+    }
+
+    .logo p {
+        font-size: 20px;
+    }
+
+    .nav {
+        width: 850px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        background: lime;
+    }
+
+    .nav a {
+        font-size: 5px;
+    }
+
+    .cont {
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .cont div {
+        width: 35px;
+        height: 35px;
+        font-size: 24px;
+    }
+
+    .cont a {
+        padding: 6px 12px;
+        line-height: 1px;
+        font-size: 12px;
+    }
+}
+
 /*final menu*/
 .home{
 	width: 100%;
@@ -697,6 +747,7 @@ body{
 	width: 80%;
 	margin: 0 auto;
 	height: 100%;
+	background: f9f9f9;
 }
 .say_hi{
 	width: 50%;
@@ -729,6 +780,7 @@ body{
 	width: 100%;
 	height: 450px;
 	display: flex;
+	background: f9f9f9;
 	position: relative;
 	top: 60px;
 }
