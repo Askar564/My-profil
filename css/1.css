@@ -90,7 +90,7 @@ body{
 	color:#14b78a;
 	border: 2px solid #00A884;
 }
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .menu {
         width: 95%;
         height: 50px;
@@ -112,8 +112,6 @@ body{
     .nav {
         width: 850px;
         justify-content: center;
-        flex-wrap: wrap;
-        gap: 10px;
         background: lime;
     }
 
